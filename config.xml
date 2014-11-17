@@ -1,9 +1,18 @@
-<?xml version="1.0" encoding="UTF-8" ?> <widget xmlns = "http://www.w3.org/ns/widgets"
-xmlns:gap = "http://phonegap.com/ns/1.0" id = ”believeit" versionCode=”2"
-version = ”2.0.0">
-<name>Checkb4ubuy</name> <description>
-Checkb4ubuy Application
-</description>
-<author href="http://www.checkb4ubuy.com" email=”inan_yildiz@hotmail.com">
-Inan </author>
-<icon src="pound.png" /> </widget>
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
+<widget xmlns     = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.phonegap.checkb4ubuy"
+        version   = "1.0.0">
+
+    <name>Checkb4ubuy</name>
+
+    <description>
+        This is a price comparison product.
+    </description>
+
+    <author href="http://checkb4ubuy.com" email="inan_yildiz@hotmail.com">
+        believeit Team
+    </author>
+    <icon src="pound.png" /> </widget>
