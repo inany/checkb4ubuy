@@ -15,7 +15,7 @@
     <author href="http://checkb4ubuy.com" email="inan_yildiz@hotmail.com">
         believeit Team
     </author>
-    <icon src="pound.png" /> </widget>
+    <icon src="pound.png" /> 
 
 
-<gap:plugin name="org.apache.cordova.inappbrowser" version="0.5.2" />
+<gap:plugin name="org.apache.cordova.inappbrowser" version="0.5.2" /> </widget>
