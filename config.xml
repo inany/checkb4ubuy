@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?> <widget xmlns = "http://www.w3.org/ns/widgets"
+xmlns:gap = "http://phonegap.com/ns/1.0" id = ”believeit" versionCode=”2"
+version = ”2.0.0">
+<name>Checkb4ubuy</name> <description>
+Checkb4ubuy Application
+</description>
+<author href="http://www.checkb4ubuy.com" email=”inan_yildiz@hotmail.com">
+Inan </author>
+<icon src="pound.png" /> </widget>
