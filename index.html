@@ -8,7 +8,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.min.css">
 <script type="text/javascript"></script>
-<script src="phonegap.js"></script>
 <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 <script src="http://code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.min.js"></script>
 
@@ -21,7 +20,7 @@ else
   {// code for IE6, IE5
   xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
   }
-xmlhttp.open("GET","http://pf.tradedoubler.com/export/export?myFeed=14141809402451915&myFormat=14141809402451915",false);
+xmlhttp.open("GET","Feedinkxml.xml",false);
 xmlhttp.send();
 xmlDoc=xmlhttp.responseXML; 
 
@@ -36,11 +35,11 @@ var x=xmlDoc.getElementsByTagName("product");
 for (i=0;i<300;i++)
   { 
   document.write("<tr><td>");
-  document.write("<img src='" + x[i].getElementsByTagName("imageUrl")[0].childNodes[0].nodeValue + "' alt='' width='55%'>");
+  document.write("<img src='" + x[i].getElementsByTagName("imageUrl")[0].childNodes[0].nodeValue + "' alt='' width='5%'>");
   document.write("<tr><td>");
   document.write(x[i].getElementsByTagName("name")[0].childNodes[0].nodeValue);
   document.write("</td><td>");	
-   document.write("<a href='#' onclick="window.open(x[i].getElementsByTagName("productUrl")[0].childNodes[0].nodeValue)" target='_blank' '_system'>");
+   document.write("<a href='"+x[i].getElementsByTagName("productUrl")[0].childNodes[0].nodeValue+"' target='_blank'>");
    document.write(x[i].getElementsByTagName("price")[0].childNodes[0].nodeValue);
   document.write("</td></td>");
   }
